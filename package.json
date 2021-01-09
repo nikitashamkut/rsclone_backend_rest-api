@@ -1,0 +1,21 @@
+{
+  "name": "rsclone_backend_rest-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "Nikita Shamkut",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-async-handler": "^1.1.4",
+    "mongodb": "^3.6.3",
+    "mongoose": "^5.11.11"
+  }
+}
