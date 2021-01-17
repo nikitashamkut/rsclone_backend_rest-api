@@ -1,6 +1,7 @@
 import express from "express";
 import asyncHandler from "express-async-handler";
 import Report from "../models/reportModel.js";
+
 const router = express.Router();
 
 // @desc    Fetch all reports

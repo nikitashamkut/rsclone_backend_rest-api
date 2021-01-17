@@ -18,7 +18,7 @@ const reportSchema = mongoose.Schema({
     required: true,
   },
   photo: {
-    type: [String],
+    type: [Object],
     required: true,
   },
   userComment: {

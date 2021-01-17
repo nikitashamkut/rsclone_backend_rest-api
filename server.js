@@ -4,13 +4,14 @@ import connectDB from "./config/db.js";
 import colors from "colors";
 import { notFound, errorHandler } from "./middleware/errorMiddleware.js";
 import reportRoutes from "./routes/reportRoutes.js";
+import cors from "cors";
 
 dotenv.config();
 
 connectDB();
 
 const app = express();
-
+app.use(cors());
 app.get("/", (req, res) => {
   res.send("API is running");
 });
